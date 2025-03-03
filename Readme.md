@@ -24,3 +24,8 @@ The Plant Whisperer is a device or app based on AI technology that talks to your
 *Hardware*: Optionally, IoT sensors (e.g., soil moisture, temperature) built into the app for real-time monitoring of the surroundings
 *Music*: Integration with a music streaming API (e.g., Spotify) or pre-curated relaxing soundtracks
 
+
+**Why This Project**:
+I have chosen this project because it brings together two of my interests—technology and nature—in a fun and interesting way. It’s a creative and engaging way to encourage people to take care of their plants while learning more about AI, IoT, and app development. This project will allow me to explore how AI can be used in interactive applications, and I’ll develop my skills in frontend and backend development, as well as working with hardware and integrating different tech components.fil
+
+
