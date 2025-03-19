@@ -1,14 +1,20 @@
 const express = require('express');
 const app = express();
-const PORT = 5000;
+
 
 app.get('/ping', (req, res) => {
-  res.send('pong');
+    try {
+        res.status(200).send({msg:'pong'});
+    } catch (error) {
+        res.status(500).send({msg:"something went wrong"})
+    }
 });
 
 
-
-
 app.listen(3000, () => {
-  console.log(Server is running on port ${PORT});
+    try {
+        console.log("Server connected successfully!")
+    } catch (error) {
+        console.log("Error")
+    }
 });
