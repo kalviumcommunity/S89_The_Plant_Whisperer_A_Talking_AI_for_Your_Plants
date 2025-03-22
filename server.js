@@ -11,6 +11,9 @@ app.get('/ping', (req, res) => {
         res.status(500).send({msg:"something went wrong"})
     }
 });
+app.get('/', (req, res) => {
+    res.send('Connected to mongodb successfully');
+  });
 
 
 app.listen(3000, () => {
